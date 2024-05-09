@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export const BrandIcon = props => (
   <div {...props} className="brand-icon">
-    <img src="#" alt="Logo" />
+    <img src="https://images-platform.99static.com//0DETJOFazRvoR6XdNMApMfGBQGM=/175x43:827x695/fit-in/500x500/99designs-contests-attachments/71/71233/attachment_71233366" alt="Logo" />
   </div>
 );
 
@@ -15,9 +15,9 @@ export const Brand = () => (
   <NavbarBrand tag={Link} to="/" className="brand-logo">
     <BrandIcon />
     <span className="brand-title">
-      <Translate contentKey="global.title">cLASSICAL.COM</Translate>
+      cLASSICAL.COM
     </span>
-    <span className="navbar-version">{VERSION.toLowerCase().startsWith('') ? VERSION : `v${VERSION}`}</span>
+  
   </NavbarBrand>
 );
 
